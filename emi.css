@@ -1,0 +1,130 @@
+/* google fonts cdn link  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	font-family: "Montserrat", sans-serif;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-transform: capitalize;
+	transition: .2s linear;
+}
+
+.container{
+	min-height: 100vh;
+	background: url('images/nature-6891549_640.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.container .row{
+	width: 800px;
+	border-radius: 20px;
+	display: flex;
+	gap: 25px;
+	flex-wrap: wrap;
+	padding: 25px;
+	backdrop-filter: blur(8px);
+	border: 1px solid rgba(255,255,255,.5);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.container .row .box{
+	flex: 1 1 300px;
+}
+
+.container .row .output{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	gap: 15px;
+	padding: 30px 20px;
+	border: 1px solid rgba(255,255,255,.5);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 20px;
+	text-align: center;
+	background-color: rgba(255,255,255,.2);
+}
+
+.container .row .output p{
+	font-size: 20px;
+	color: #334;
+}
+
+.container .row .output div{
+	font-size: 25px;
+	color: rgb(19, 30, 60);
+}
+
+.container .row .form p{
+	font-size: 20px;
+	color: #334;
+}
+
+.container .row .form .input{
+	width: 100%;
+	background: none;
+	border-radius: 10px;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(0,0,0,.2);
+	font-size: 20px;
+	color: #334;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.container .row .form .input::placeholder{
+	color: #555;
+	text-transform: none;
+}
+
+.container .row .form .tenure input[type="radio"]{
+	display: none;
+}
+
+.container .row .form .tenure{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .row .form .tenure label{
+	font-size: 20px;
+	border-radius: 10px;
+	flex: 1;
+	background-color: rgba(0,0,0,.2);
+	border: 1px solid rgba(0,0,0,.2);
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.container .row .form .tenure input[type="radio"]:checked + label{
+	background: rgba(20, 175, 226, 0.836);
+}
+
+.container .row .form .calculate{
+	width: 100%;
+	padding: 12px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	background: rgba(255,255,255,.3);
+	border: 1px solid rgba(0,0,0,.2);
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.container .row .form .calculate:hover{
+	background-color: rgba(24, 53, 69, 0.926);
+	box-shadow: 0 5px 15px rgba(200, 181, 181, 0.936);
+	color: #fff;
+}
