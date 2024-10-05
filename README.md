@@ -1,3 +1,2 @@
-"# EMI-CALCULATOR" 
-"# EMI-CALCULATOR" 
-"# EMI-Calculator" 
+#live demo
+ https://gangaram-sumanth-reddy.github.io/EMI-Calculator/
