@@ -4,7 +4,7 @@
 This project is an EMI Calculator that helps users calculate their Equated Monthly Installments (EMI) based on loan details.
 
 ## Live Demo
-You can view the live version of the project [here](https://link_to_your_live_code).
+You can view the live version of the project [here][(https://gangaram-sumanth-reddy.github.io/EMI-Calculator/)]
 
 ## Installation
 To run this project locally, clone the repository and open `emi.html` in your browser.
