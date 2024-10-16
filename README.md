@@ -14,3 +14,4 @@ To run this project locally, clone the repository and open `emi.html` in your br
 - `emi.css`: Stylesheet for the project.
 - `emi.js`: JavaScript file for functionality.
 - `images/`: Directory containing image assets.
+"# EMi-CALCULATOR" 
